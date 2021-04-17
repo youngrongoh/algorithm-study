@@ -2,8 +2,6 @@
  * @see https://www.acmicpc.net/problem/1978
  * @description
  * # Title: 소수 찾기
- * # Condition
- * 1.
  * # Problem
  * 주어진 수 N개 중에서 소수의 개수를 출력
  * # Input

@@ -18,7 +18,7 @@
     1 3 5 7`
  */
 
-function countDecimal(nums) {
+function countPrime(nums) {
   const count = nums.reduce((count, numString) => {
     const num = Number(numString);
     if (num <= 1) return count;
@@ -39,6 +39,6 @@ const sample = `4
 const input = sample.split('\n');
 const nums = input[1].split(' ');
 
-const decimalCount = countDecimal(nums);
+const primeCount = countPrime(nums);
 
-console.log(decimalCount);
+console.log(primeCount);

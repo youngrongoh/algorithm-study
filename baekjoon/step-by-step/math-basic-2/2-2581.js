@@ -22,7 +22,7 @@
   65`
  */
 
-function isDecimal(num) {
+function isPrime(num) {
   if (num <= 1) return false;
 
   for (let i = 2; i < num; i++) {
@@ -32,14 +32,14 @@ function isDecimal(num) {
   return true;
 }
 
-function findAllDecimal(start, end) {
-  const decimals = [];
+function findAllPrimes(start, end) {
+  const primes = [];
 
   for (let i = start; i <= end; i++) {
-    if (isDecimal(i)) decimals.push(i);
+    if (isPrime(i)) primes.push(i);
   }
 
-  return decimals;
+  return primes;
 }
 
 const sample = [
@@ -59,11 +59,11 @@ for (let i = 0; i < sample.length; i++) {
   const m = Number(input[0]);
   const n = Number(input[1]);
 
-  const decimals = findAllDecimal(m, n);
+  const primes = findAllPrimes(m, n);
 
-  if (decimals.length > 0) {
-    const sum = decimals.reduce((sum, num) => sum + num, 0);
-    const min = decimals[0];
+  if (primes.length > 0) {
+    const sum = primes.reduce((sum, num) => sum + num, 0);
+    const min = primes[0];
 
     console.log(sum);
     console.log(min);

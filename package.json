@@ -1,0 +1,19 @@
+{
+  "name": "algorithm-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngrongoh/algorithm-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngrongoh/algorithm-study/issues"
+  },
+  "homepage": "https://github.com/youngrongoh/algorithm-study#readme"
+}

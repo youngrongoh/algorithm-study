@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/youngrongoh/algorithm-study/issues"
   },
-  "homepage": "https://github.com/youngrongoh/algorithm-study#readme"
+  "homepage": "https://github.com/youngrongoh/algorithm-study#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }

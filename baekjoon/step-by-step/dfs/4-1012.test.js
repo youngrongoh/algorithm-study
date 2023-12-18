@@ -49,6 +49,12 @@ function getBasicCases () {
       4 2
       4 0`,
       output: '2',
+    },
+    {
+      input: `1
+      3 3 1
+      1 0`,
+      output: '1',
     }
   ].map((aCase) => Object.keys(aCase).reduce((acc, key) => {
     acc[key] = aCase[key].replace(/ {2}/g, '');
